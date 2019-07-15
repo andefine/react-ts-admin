@@ -42,3 +42,13 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## config
+
+### 按需导入 `antd` 组件
+
+`antd` 官网有详细说明
+
+### 配置别名
+
+[**jjenzz's solution**](https://github.com/facebook/create-react-app/issues/5118#issuecomment-464025389)

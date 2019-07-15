@@ -1,12 +1,20 @@
 import React from 'react'
+import { Layout } from 'antd'
+import AsideMenu from '@/views/aside-menu/aside-menu'
+import './app.scss'
 
-import { Button } from 'antd'
+const { Header, Content } = Layout
 
 const App: React.FC = () => {
   return (
-    <div className="app">
-      <Button>按钮</Button>
-    </div>
+    <Layout className="app">
+      <AsideMenu className="app__sider">sider</AsideMenu>
+      <Layout>
+        <Header>header</Header>
+        <Content>
+        </Content>
+      </Layout>
+    </Layout>
   )
 }
 
