@@ -1,5 +1,5 @@
 import React from 'react'
-// import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import { Layout, Menu } from 'antd'
 import './aside-menu.scss'
 
@@ -19,7 +19,7 @@ export default class AsideMenu extends React.Component<IProps> {
           mode="inline"
         >
           <Menu.Item>
-            
+            <Link to="/home">首页</Link>
           </Menu.Item>
           <Menu.SubMenu
             title={
