@@ -1,6 +1,6 @@
 import React from 'react'
 import { Layout } from 'antd'
-import AsideMenu from '@/views/aside-menu/aside-menu'
+import AsideMenu from '@/layout/aside-menu/aside-menu'
 import './app.scss'
 
 const { Header, Content } = Layout
